@@ -37,25 +37,14 @@ h1 {
 .autor {
   font-size: 0.8em;
 }
-/* Ajustes para dispositivos móviles */
-@media only screen and (max-width: 600px) {
-  /* Centrar el botón y el contenedor del color */
-  #container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+/* Para dispositivos móviles */
+@media (max-width: 768px) {
+  #color-container {
+    width: 80vw;
+    height: 80vw;
   }
-
-  /* Ajustar el tamaño del botón */
   #btn-generar-color {
-    font-size: 16px;
-    padding: 10px 20px;
-  }
-
-  /* Reducir el tamaño del pie de página */
-  footer {
-    font-size: 10px;
-    margin-top: 20px;
+    width: 50vw;
   }
 }
 
