@@ -37,4 +37,16 @@ body {
   .autor {
     font-size: 0.8em;
   }
+@media (max-width: 768px) {
+  #color-container {
+    width: 80%;
+    height: 50vw;
+    margin: 0 auto;
+  }
+  
+  #btn-generar-color {
+    margin-top: 1rem;
+  }
+}
+
   
