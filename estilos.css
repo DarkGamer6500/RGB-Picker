@@ -1,0 +1,40 @@
+body {
+    background-color: #1d1d1d;
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 3em;
+    margin-top: 20px;
+  }
+  
+  #container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+  }
+  
+  #color-container {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    border: 2px solid #fff;
+  }
+  
+  #btn-generar-color {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border: none;
+    background-color: #2d2d2d;
+    color: #fff;
+    border-radius: 5px;
+  }
+  
+  .autor {
+    font-size: 0.8em;
+  }
+  
